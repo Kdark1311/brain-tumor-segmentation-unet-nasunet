@@ -6,6 +6,7 @@
 
 ## 📂 Project Structure
 Segmentation_project/
+
 │── archive/ # Dataset (images, annotations, masks, processed npy)
 
 │── processed/ # Augmented .npy data for training
