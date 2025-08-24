@@ -40,9 +40,7 @@ venv\Scripts\activate          # Windows PowerShell
 pip install -r requirements.txt
 🧠 Training
 Train with U-Net
-bash
-Copy
-Edit
+bash 
 python train.py --model unet --data "archive/processed" --epochs 50 --batch 8 --lr 3e-4 --base 32 --ckpt ./checkpoints
 Train with NASU-Net
 bash
@@ -76,8 +74,6 @@ pycocotools
 Install via:
 
 bash
-Copy
-Edit
 pip install -r requirements.txt
 📈 Results
 Dice Score, IoU metrics
