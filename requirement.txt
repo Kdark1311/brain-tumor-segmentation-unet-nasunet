@@ -1,0 +1,23 @@
+# Core Python utilities
+numpy
+pillow
+tqdm
+matplotlib
+
+# Image processing
+opencv-python
+albumentations
+
+# COCO annotations
+pycocotools
+
+# Deep learning framework
+torch
+torchvision
+torchaudio
+
+# For U-Net / NAS-Unet (Keras implementation nếu bạn muốn thử)
+tensorflow
+
+# Metrics
+scikit-learn
