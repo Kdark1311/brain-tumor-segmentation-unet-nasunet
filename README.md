@@ -7,18 +7,23 @@
 ## 📂 Project Structure
 Segmentation_project/
 │── archive/ # Dataset (images, annotations, masks, processed npy)
+
 │── processed/ # Augmented .npy data for training
+
 │── model_unet.py # Standard U-Net model
+
 │── model_nasunet.py # NASU-Net model (searched architecture)
+
 │── train.py # Training pipeline
+
 │── eval_predict.py # Evaluation & prediction script
+
 │── make_binary_masks.py # Convert COCO annotations to binary masks
+
 │── augmentation.py # Data augmentation & preprocessing
+
 │── requirements.txt # Dependencies
 
-yaml
-Copy
-Edit
 
 ---
 
